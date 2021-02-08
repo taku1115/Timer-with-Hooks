@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Timer from './Timer'
+import Timer from './containers/Timer'
 
 function App() {
   return (
     <div className="App">
-      <Timer limit={4}/>
+      <Timer limit={60}/>
     </div>
   );
 }
